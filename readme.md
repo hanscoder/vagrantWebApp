@@ -1,6 +1,6 @@
-# VagrantNode
+# VagrantWebApp
 
-*VagrantNode* is a packaged development environment for developing web application mainly based on JavaScript.
+*VagrantApp* is a packaged development environment for developing web application mainly based on JavaScript.
 
 # What's installed
 
