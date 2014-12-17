@@ -8,7 +8,7 @@ package {'http-server':
   require => Class['nodejs'],
 }
 
-package {'karma':
+package {'karma-cli':
   provider => 'npm',
   require => Class['nodejs'],
 }
