@@ -4,9 +4,11 @@
 
 # What's installed
 
-+ NodeJs
++ nodejs
 + http-server
 + karma
 + karma-ng-scenario
++ fontconfig (needed for phantomjs)
++ phantomjs
 
 
