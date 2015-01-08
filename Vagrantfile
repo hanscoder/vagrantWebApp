@@ -9,6 +9,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
 	config.vm.provision :shell do |shell|
 		shell.inline = "mkdir -p /etc/puppet/modules;
+				puppet module install maestrodev-wget --version 1.5.7 --force;
 				puppet module install puppetlabs-stdlib --version 4.5.0 --force;
 				puppet module install willdurand/nodejs --version 1.8.4 --force"
 	end
