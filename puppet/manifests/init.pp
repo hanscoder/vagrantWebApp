@@ -35,3 +35,4 @@ package {'http-server':
   ensure   => '0.7.4',
   require => Class['nodejs'],
 }
+
